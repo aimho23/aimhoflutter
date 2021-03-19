@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main(List<String> args) => runApp(MyApp())  ; {
-  
+void main() => runApp(MyApp());
 
-//gogogogogogpgogo
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'First app',
+      theme: ThemeData(primarySwatch: Color.blue), //ThemeData
+      home: MyHomePage(),
+    );
+  } //MaterialApp
 }
