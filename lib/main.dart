@@ -12,3 +12,19 @@ class MyApp extends StatelessWidget {
     );
   } //MaterialApp ffdd
 }
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('First App'),
+      ),
+      body: Center(
+        child: Column(
+          children: <Widget>[Text('Hello'), Text('Hello'), Text('Hello')],
+        ),
+      ),
+    );
+  }
+}
