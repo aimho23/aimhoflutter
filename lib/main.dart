@@ -18,11 +18,19 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('First App'),
+        title: Text('Aimho'),
+        centerTitle: true,
+        backgroundColor: Colors.redAccent,
+        elevation: 0.0,
       ),
       body: Center(
         child: Column(
-          children: <Widget>[Text('Hello'), Text('Hello'), Text('Hello')],
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Hello'),
+            Text('Hello'),
+            Text('Hello'),
+          ],
         ),
       ),
     );
